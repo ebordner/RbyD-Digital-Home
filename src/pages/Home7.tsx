@@ -63,6 +63,7 @@ const Navbar7 = () => (
       <Link to="/case-studies" className={`hover:text-[${COLORS.camel}] transition-colors`}>Case Studies</Link>
       <Link to="/audit" className={`hover:text-[${COLORS.camel}] transition-colors`}>Audit</Link>
       <Link to="/diagnostic" className={`hover:text-[${COLORS.camel}] transition-colors`}>Diagnostic</Link>
+      <Link to="/blog" className={`hover:text-[${COLORS.camel}] transition-colors`}>Blog</Link>
     </div>
     <BoardroomButton variant="outline" className="py-2 px-6">Contact</BoardroomButton>
   </nav>

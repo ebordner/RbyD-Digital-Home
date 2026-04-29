@@ -11,6 +11,7 @@ import Audit from "./pages/Audit";
 import Diagnostic from "./pages/Diagnostic";
 import Intensive from "./pages/Intensive";
 import IntensiveApplication from "./pages/IntensiveApplication";
+import Blog from "./pages/Blog";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import RefundPolicy from "./pages/RefundPolicy";
 import TermsConditions from "./pages/TermsConditions";
@@ -41,6 +42,7 @@ export default function App() {
         <Route path="/diagnostic" element={<Diagnostic />} />
         <Route path="/revenue-architecture-intensive" element={<Intensive />} />
         <Route path="/revenue-architecture-intensive/apply" element={<IntensiveApplication />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/refund" element={<RefundPolicy />} />
         <Route path="/terms" element={<TermsConditions />} />
